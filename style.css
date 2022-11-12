@@ -5,6 +5,9 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background: fixed;
+    background-image: url('assets/images/exa.jpg');
+    background-size: cover;
 }
 
 .topnav{
@@ -51,7 +54,7 @@ body{
 }
 
 .dropbut:hover{
-    color: aliceblue;
+    color: rgb(45, 86, 20);
     cursor: pointer;
 }
 
@@ -104,8 +107,6 @@ body{
     height: auto;
     background-color: rgb(123, 204, 207);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     width: 100%;
     gap: 20px;
 }
@@ -113,6 +114,7 @@ body{
 .botnav .maindiv {
     float: left;
     margin: 30px;
+    margin-right: 75px;
 }
 
 .botnav .maindiv div{
@@ -134,6 +136,10 @@ body{
     margin-bottom: 8px;
 }
 
+.botnav a:hover{
+    color: rgb(26, 86, 88);
+}
+
 #logo2{
     margin-right: 30px;
 }
@@ -145,6 +151,16 @@ body{
 
     .botnav .maindiv {
         margin: 15px;
+        font-size: 80%;
+    }
+
+    #subnav{
+        float: left;
+        display: grid;
+    }
+
+    #subnav div{
+        width: 40%;
     }
 }
 
@@ -152,6 +168,17 @@ body{
     margin-right: 5px;
 }
 
-#contact{
-    margin-right: 50px;
+#subnav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#copyright{
+    background-color: rgb(123, 204, 207);
+    font-size: 12px;
+}
+
+#copyright i{
+    margin: 10px;
 }

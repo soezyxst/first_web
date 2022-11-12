@@ -101,8 +101,6 @@ body{
 }
 
 .botnav{
-    bottom: 0;
-    position: absolute;
     height: auto;
     background-color: rgb(123, 204, 207);
     display: flex;
